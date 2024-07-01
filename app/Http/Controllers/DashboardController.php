@@ -11,4 +11,9 @@ class DashboardController extends Controller
     {
         return Inertia::render('Index');
     }
+
+    public function tourGuide(): \Inertia\Response
+    {
+        return Inertia::render('TourGuide');
+    }
 }

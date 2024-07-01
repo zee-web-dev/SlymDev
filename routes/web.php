@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+
+Route::get('/tour-guide', [DashboardController::class, 'tourGuide'])->name('tour-guide');
+
+Route::get('/settings', [DashboardController::class, 'tourGuide'])->name('settings');
